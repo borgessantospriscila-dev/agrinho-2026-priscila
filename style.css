@@ -1,0 +1,204 @@
+/* Configurações Globais e Paleta de Cores */
+:root {
+    --verde-primario: #2e6f40;
+    --verde-escuro: #1e462b;
+    --verde-claro: #edf5ef;
+    --verde-destaque: #78c18e;
+    --texto-escuro: #2c3e35;
+    --texto-claro: #ffffff;
+    --cinza-fundo: #f9fbf9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cinza-fundo);
+    color: var(--texto-escuro);
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--texto-claro);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.container-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--verde-primario);
+}
+
+.logo span {
+    color: var(--verde-destaque);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--texto-escuro);
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--verde-primario);
+}
+
+/* Banner Principal (Hero) */
+.hero-banner {
+    background: linear-gradient(rgba(30, 70, 43, 0.8), rgba(30, 70, 43, 0.9)), url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.hero-conteudo h1 {
+    font-size: 3rem;
+    color: var(--texto-claro);
+    margin-bottom: 20px;
+}
+
+.hero-conteudo p {
+    font-size: 1.3rem;
+    color: var(--verde-claro);
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+}
+
+.botao-acao {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--verde-destaque);
+    color: var(--verde-escuro);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.botao-acao:hover {
+    background-color: var(--texto-claro);
+    transform: translateY(-2px);
+}
+
+/* Seções de Informações Gerais */
+.secao-info {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+.titulo-secao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-secao h2 {
+    font-size: 2.2rem;
+    color: var(--verde-escuro);
+    margin-bottom: 10px;
+}
+
+/* Grid de Cards Informativos */
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: var(--texto-claro);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    border-bottom: 4px solid var(--verde-destaque);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .icone {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+    color: var(--verde-escuro);
+    margin-bottom: 15px;
+}
+
+/* Seção de Destaque */
+.secao-destaque {
+    background-color: var(--verde-claro);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.conteudo-destaque {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conteudo-destaque h2 {
+    color: var(--verde-escuro);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.conteudo-destaque p {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.3rem;
+    color: var(--verde-primario);
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--verde-escuro);
+    color: var(--verde-claro);
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+/* Ajustes para telas menores (Celular) */
+@media (max-width: 768px) {
+    .container-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero-conteudo h1 {
+        font-size: 2rem;}
