@@ -26,37 +26,3 @@ Rodapé Informativo: Identificação de direitos autorais atribuídos ao "Portal
 
 C) Aspectos Técnicos (Desenvolvimento)
 Hospedagem e Controle de Versão: O site está hospedado e publicado diretamente por meio do GitHub Pages (github.io), uma plataforma amplamente utilizada para desenvolvimento e publicação de projetos web estáticos.
-
-Linguagens Base: Construído utilizando a estrutura padrão da web (HTML5 para organização dos textos e seções, CSS3 para o estilo visual, cores e responsividade, e possivelmente pequenos scripts para efeitos de rolagem).
-
-Para entender como a página do Agrinho 2026 funciona nos bastidores, podemos pensar no desenvolvimento web como a construção de uma casa. Cada uma das três tecnologias desempenha um papel fundamental e complementar:
-
-1. HTML5 (A Estrutura/Paredes)
-O HTML (HyperText Markup Language) funciona como o esqueleto ou os tijolos do site. No projeto Agrinho, ele foi usado para definir e organizar todo o conteúdo que você lê na tela.
-
-Como foi usado: Para criar as seções da página (<section>), os títulos (<h2> como "Como Funciona o Agro Sustentável?"), os parágrafos de texto, os links do menu que levam aos #pilares e os emojis que ilustram os blocos. Sem o HTML, o site seria apenas uma tela em branco sem nenhum texto ou botão.
-
-2. CSS3 / style.css (A Estética/Pintura e Decoração)
-O CSS (Cascading Style Sheets) é responsável por toda a aparência visual do portal. É ele quem pega a estrutura crua do HTML e a transforma em um site bonito, moderno e agradável de ler.
-Para entender como a página do Agrinho 2026 funciona nos bastidores, podemos pensar no desenvolvimento web como a construção de uma casa. Cada uma das três tecnologias desempenha um papel fundamental e complementar:
-
-1. HTML5 (A Estrutura/Paredes)
-O HTML (HyperText Markup Language) funciona como o esqueleto ou os tijolos do site. No projeto Agrinho, ele foi usado para definir e organizar todo o conteúdo que você lê na tela.
-
-Como foi usado: Para criar as seções da página (<section>), os títulos (<h2> como "Como Funciona o Agro Sustentável?"), os parágrafos de texto, os links do menu que levam aos #pilares e os emojis que ilustram os blocos. Sem o HTML, o site seria apenas uma tela em branco sem nenhum texto ou botão.
-
-2. CSS3 / style.css (A Estética/Pintura e Decoração)
-O CSS (Cascading Style Sheets) é responsável por toda a aparência visual do portal. É ele quem pega a estrutura crua do HTML e a transforma em um site bonito, moderno e agradável de ler.
-
-Como foi usado: Para definir a paleta de cores (provavelmente tons de verde e terra que remetem à sustentabilidade e ao agro), alinhar os três pilares em colunas organizadas (usando ferramentas como Flexbox ou Grid), escolher as fontes do texto, dar espaçamento para a página "respirar" e garantir que o site se ajuste perfeitamente tanto na tela de um computador quanto no celular (design responsivo).
-
-3. JavaScript (A Interatividade/Sistemas da Casa)
-O JavaScript é a linguagem de programação que adiciona comportamento, lógica e dinamismo ao site. Enquanto o HTML e o CSS cuidam do visual estático, o JavaScript dá vida à página.
-
-Como foi usado: No formato de One-Page (página única) desse projeto, o JavaScript geralmente é aplicado para criar o efeito de rolagem suave (smooth scroll). Quando você clica em "Pilares" no menu, em vez de a tela pular bruscamente, o script faz a página deslizar suavemente até a seção. Ele também pode ser usado para ativar animações quando os blocos de conteúdo surgem na tela ou para fazer o menu sumir/aparecer ao rolar a página.
-Como foi usado: Para definir a paleta de cores (provavelmente tons de verde e terra que remetem à sustentabilidade e ao agro), alinhar os três pilares em colunas organizadas (usando ferramentas como Flexbox ou Grid), escolher as fontes do texto, dar espaçamento para a página "respirar" e garantir que o site se ajuste perfeitamente tanto na tela de um computador quanto no celular (design responsivo).
-
-3. JavaScript (A Interatividade/Sistemas da Casa)
-O JavaScript é a linguagem de programação que adiciona comportamento, lógica e dinamismo ao site. Enquanto o HTML e o CSS cuidam do visual estático, o JavaScript dá vida à página.
-
-Como foi usado: No formato de One-Page (página única) desse projeto, o JavaScript geralmente é aplicado para criar o efeito de rolagem suave (smooth scroll). Quando você clica em "Pilares" no menu, em vez de a tela pular bruscamente, o script faz a página deslizar suavemente até a seção. Ele também pode ser usado para ativar animações quando os blocos de conteúdo surgem na tela ou para fazer o menu sumir/aparecer ao rolar a página.
